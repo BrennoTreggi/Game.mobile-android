@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Script.Ultts.Singleton;
+using System;
 
 public class ManegerItensGamer : Singleton<ManegerItensGamer>
 {
@@ -58,4 +59,5 @@ public class ManegerItensGamer : Singleton<ManegerItensGamer>
 
     }
 
+ 
 }

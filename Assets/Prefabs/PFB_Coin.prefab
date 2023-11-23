@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4188833965701230192}
   m_LocalRotation: {x: 0.62806964, y: 0.32485157, z: -0.32485157, w: 0.62806964}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
   m_LocalScale: {x: 1, y: 0.060637, z: 1}
   m_Children: []
   m_Father: {fileID: 7076046528017889829}
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4d4d4cbf7c2ad1647877084071a8d09a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,7 +106,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7136324158456085556}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.81, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -126,10 +126,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ed2b71cb52c9f4092ce6d2f9de4907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comparation: Player
+  comparation: CoinColector
   particleSystem: {fileID: 0}
-  timecoins: 0
-  PFB_GameObject: {fileID: 7136324158456085556}
+  timecoins: 1
+  ItemGraphic: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!135 &1648665138708304934
 SphereCollider:

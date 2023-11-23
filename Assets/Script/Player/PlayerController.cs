@@ -16,6 +16,7 @@ public class PlayerController : Singleton<PlayerController>
     public float speed = 1f;
 
     public string TagEnimy = "Enimy";
+    public string TagEmd_line = "End_line";
 
     public GameObject endScreen;
 
@@ -30,6 +31,7 @@ public class PlayerController : Singleton<PlayerController>
 
     [Header("Animation")]
     public AnimeteManeger animeteManeger;
+
 
 
     //Privete
@@ -67,10 +69,11 @@ public class PlayerController : Singleton<PlayerController>
                 EndGame(AnimeteManeger.AnimationType.DEAD);
             }
         }
-    } private void OnTriggerEnter(Collider other)
+    } 
+    private void OnTriggerEnter(Collider other)
     {
       
-        if (other.transform.tag == TagEnimy)
+        if (other.transform.tag == TagEmd_line)
         {
             if(!invencible) EndGame();
         }

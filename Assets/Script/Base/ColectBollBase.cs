@@ -39,7 +39,7 @@ public class ColectBollBase : MonoBehaviour
         OnCollect();
     }
 
-    private void HideItens()
+    public void HideItens()
     {
         gameObject.SetActive(false);
     }

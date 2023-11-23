@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enimy
   - CoinColector
+  - End_line
   layers:
   - Default
   - TransparentFX
