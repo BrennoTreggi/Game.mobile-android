@@ -85,6 +85,9 @@ public class Level_Maneger : MonoBehaviour
             CreatelevelPiace(PieceSetup.LevelPiecesEnd);
            
         }
+
+        ColorManager.Instance.ChangeColorByType(PieceSetup.Arttype);
+
     }
 
 
